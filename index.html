@@ -9,6 +9,7 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
+		<link rel="stylesheet" href="./css/main.min.css" />
 		<link rel="stylesheet" href="./css/styles.css" />
 	</head>
 
@@ -20,7 +21,7 @@
 					<!-- prettier-ignore -->
 					<a class="logo" href="./index.html">
 					<span class="logo__web">Web</span>Studio</a>
-					<ul class="flex nav__list">
+					<ul class="flex nav">
 						<li class="nav__item">
 							<a class="nav__link nav__link--current" href="./index.html">Студія</a>
 						</li>
@@ -54,8 +55,8 @@
 		</header>
 		<main>
 			<!--Секція Герой-->
-			<section class="section hero">
-				<div class="container">
+			<section class="section section--hero">
+				<div class="container hero">
 					<h1 class="hero__heading">Ефективні рішення для вашого бізнесу</h1>
 					<button data-modal-open class="btn hero__btn" type="button">Замовити послугу</button>
 				</div>
@@ -63,7 +64,7 @@
 			<!--Секція з особливостями-->
 			<section class="section features">
 				<div class="container">
-					<h2 class="features__tittle">Особливості</h2>
+					<h2 class="features__title">Особливості</h2>
 					<ul class="flex">
 						<li class="features__item">
 							<div class="features__icon flex">
@@ -105,9 +106,9 @@
 				</div>
 			</section>
 			<!--Секція Чим ми займаємося-->
-			<section class="section section__job">
+			<section class="section section--job">
 				<div class="container">
-					<h2 class="tittle">Чим ми займаємося</h2>
+					<h2 class="title">Чим ми займаємося</h2>
 					<ul class="our-job flex">
 						<li class="our-job__demo">
 							<img src="./images/code_writting.jpg" alt="code_writting" width="370" height="294" />
@@ -125,9 +126,9 @@
 				</div>
 			</section>
 			<!--Секція: "Наша команда-->
-			<section class="section section__team">
+			<section class="section section--team">
 				<div class="container">
-					<h2 class="tittle">Наша команда</h2>
+					<h2 class="title">Наша команда</h2>
 					<ul class="team flex">
 						<li class="team-member">
 							<img src="./images/product_designer.jpg" alt="product_designer" width="270" height="260" />
@@ -136,28 +137,28 @@
 								<p class="team-member__position" lang="en">Product Designer</p>
 								<ul class="socials flex">
 									<li>
-										<a class="social__link flex" href="https://www.instagram.com/" aria-label="Instagram" target="_blank" rel="noreferrer noopener">
+										<a class="socials__link flex" href="https://www.instagram.com/" aria-label="Instagram" target="_blank" rel="noreferrer noopener">
 											<svg width="20" height="20">
 												<use href="./images/icons.svg#icon-instagram"></use>
 											</svg>
 										</a>
 									</li>
 									<li>
-										<a class="social__link flex" href="https://twitter.com" aria-label="Twitter" target="_blank" rel="noreferrer noopener">
+										<a class="socials__link flex" href="https://twitter.com" aria-label="Twitter" target="_blank" rel="noreferrer noopener">
 											<svg width="20" height="20">
 												<use href="./images/icons.svg#icon-twitter"></use>
 											</svg>
 										</a>
 									</li>
 									<li>
-										<a class="social__link flex" href="https://facebook.com" aria-label="Facebook" target="_blank" rel="noreferrer noopener">
+										<a class="socials__link flex" href="https://facebook.com" aria-label="Facebook" target="_blank" rel="noreferrer noopener">
 											<svg width="20" height="20">
 												<use href="./images/icons.svg#icon-facebook"></use>
 											</svg>
 										</a>
 									</li>
 									<li>
-										<a class="social__link flex" href="https://linkedin.com" aria-label="Linkedin" target="_blank" rel="noreferrer noopener">
+										<a class="socials__link flex" href="https://linkedin.com" aria-label="Linkedin" target="_blank" rel="noreferrer noopener">
 											<svg width="20" height="20">
 												<use href="./images/icons.svg#icon-linkedin"></use>
 											</svg>
@@ -173,28 +174,28 @@
 								<p class="team-member__position" lang="en">Frontend Developer</p>
 								<ul class="socials flex">
 									<li>
-										<a class="social__link flex" href="https://www.instagram.com/" aria-label="Instagram" target="_blank" rel="noreferrer noopener">
+										<a class="socials__link flex" href="https://www.instagram.com/" aria-label="Instagram" target="_blank" rel="noreferrer noopener">
 											<svg width="20" height="20">
 												<use href="./images/icons.svg#icon-instagram"></use>
 											</svg>
 										</a>
 									</li>
 									<li>
-										<a class="social__link flex" href="https://twitter.com" aria-label="Twitter" target="_blank" rel="noreferrer noopener">
+										<a class="socials__link flex" href="https://twitter.com" aria-label="Twitter" target="_blank" rel="noreferrer noopener">
 											<svg width="20" height="20">
 												<use href="./images/icons.svg#icon-twitter"></use>
 											</svg>
 										</a>
 									</li>
 									<li>
-										<a class="social__link flex" href="https://facebook.com" aria-label="Facebook" target="_blank" rel="noreferrer noopener">
+										<a class="socials__link flex" href="https://facebook.com" aria-label="Facebook" target="_blank" rel="noreferrer noopener">
 											<svg width="20" height="20">
 												<use href="./images/icons.svg#icon-facebook"></use>
 											</svg>
 										</a>
 									</li>
 									<li>
-										<a class="social__link flex" href="https://linkedin.com" aria-label="Linkedin" target="_blank" rel="noreferrer noopener">
+										<a class="socials__link flex" href="https://linkedin.com" aria-label="Linkedin" target="_blank" rel="noreferrer noopener">
 											<svg width="20" height="20">
 												<use href="./images/icons.svg#icon-linkedin"></use>
 											</svg>
@@ -210,28 +211,28 @@
 								<p class="team-member__position" lang="en">Marketing</p>
 								<ul class="socials flex">
 									<li>
-										<a class="social__link flex" href="https://www.instagram.com/" aria-label="Instagram" target="_blank" rel="noreferrer noopener">
+										<a class="socials__link flex" href="https://www.instagram.com/" aria-label="Instagram" target="_blank" rel="noreferrer noopener">
 											<svg width="20" height="20">
 												<use href="./images/icons.svg#icon-instagram"></use>
 											</svg>
 										</a>
 									</li>
 									<li>
-										<a class="social__link flex" href="https://twitter.com" aria-label="Twitter" target="_blank" rel="noreferrer noopener">
+										<a class="socials__link flex" href="https://twitter.com" aria-label="Twitter" target="_blank" rel="noreferrer noopener">
 											<svg width="20" height="20">
 												<use href="./images/icons.svg#icon-twitter"></use>
 											</svg>
 										</a>
 									</li>
 									<li>
-										<a class="social__link flex" href="https://facebook.com" aria-label="Facebook" target="_blank" rel="noreferrer noopener">
+										<a class="socials__link flex" href="https://facebook.com" aria-label="Facebook" target="_blank" rel="noreferrer noopener">
 											<svg width="20" height="20">
 												<use href="./images/icons.svg#icon-facebook"></use>
 											</svg>
 										</a>
 									</li>
 									<li>
-										<a class="social__link flex" href="https://linkedin.com" aria-label="Linkedin" target="_blank" rel="noreferrer noopener">
+										<a class="socials__link flex" href="https://linkedin.com" aria-label="Linkedin" target="_blank" rel="noreferrer noopener">
 											<svg width="20" height="20">
 												<use href="./images/icons.svg#icon-linkedin"></use>
 											</svg>
@@ -247,28 +248,28 @@
 								<p class="team-member__position" lang="en">UI Designer</p>
 								<ul class="socials flex">
 									<li>
-										<a class="social__link flex" href="https://www.instagram.com/" aria-label="Instagram" target="_blank" rel="noreferrer noopener">
+										<a class="socials__link flex" href="https://www.instagram.com/" aria-label="Instagram" target="_blank" rel="noreferrer noopener">
 											<svg width="20" height="20">
 												<use href="./images/icons.svg#icon-instagram"></use>
 											</svg>
 										</a>
 									</li>
 									<li>
-										<a class="social__link flex" href="https://twitter.com" aria-label="Twitter" target="_blank" rel="noreferrer noopener">
+										<a class="socials__link flex" href="https://twitter.com" aria-label="Twitter" target="_blank" rel="noreferrer noopener">
 											<svg width="20" height="20">
 												<use href="./images/icons.svg#icon-twitter"></use>
 											</svg>
 										</a>
 									</li>
 									<li>
-										<a class="social__link flex" href="https://facebook.com" aria-label="Facebook" target="_blank" rel="noreferrer noopener">
+										<a class="socials__link flex" href="https://facebook.com" aria-label="Facebook" target="_blank" rel="noreferrer noopener">
 											<svg width="20" height="20">
 												<use href="./images/icons.svg#icon-facebook"></use>
 											</svg>
 										</a>
 									</li>
 									<li>
-										<a class="social__link flex" href="https://linkedin.com" aria-label="Linkedin" target="_blank" rel="noreferrer noopener">
+										<a class="socials__link flex" href="https://linkedin.com" aria-label="Linkedin" target="_blank" rel="noreferrer noopener">
 											<svg width="20" height="20">
 												<use href="./images/icons.svg#icon-linkedin"></use>
 											</svg>
@@ -283,7 +284,7 @@
 			<!-- Постійні кліенти -->
 			<section class="section">
 				<div class="container">
-					<h2 class="tittle">Постійні кліенти</h2>
+					<h2 class="title">Постійні кліенти</h2>
 					<ul class="clients flex">
 						<li class="clients__item">
 							<a class="clients__link" href="" aria-label="Client-1" target="_blank" rel="noreferrer noopener">
@@ -335,55 +336,55 @@
 		<footer class="footer">
 			<div class="container flex">
 				<!-- prettier-ignore -->
-				<div class="footer__contacts-wrap">
-				<a class="logo logo--footer" href="./index.html">
+				<div>
+				<a class="logo footer--logo" href="./index.html">
 					<span class="logo__web">Web</span>Studio</a>
-				<address class="footer__address">
-					<ul class="footer-contacts">
-						<li class="footer-contacts__item">
-							<a class="city__address" href="">
+				<address class="footer-address">
+					<ul class="footer-address-contacts">
+						<li class="footer-address__item">
+							<a class="footer-address__city" href="">
 								м. Київ, пр-т Лесі Українки, 26
 							</a>
 						</li>
-						<li class="footer-contacts__item">
-							<a class="footer-contacts__link" href="mailto:info@devstudio.com">
+						<li class="footer-address__item">
+							<a class="footer-address__link" href="mailto:info@devstudio.com">
 								info@devstudio.com
 							</a>
 						</li>
-						<li class="footer-contacts__item">
-							<a class="footer-contacts__link" href="tel:+380961111111">
+						<li class="footer-address__item">
+							<a class="footer-address__link" href="tel:+380961111111">
 								+38 096 111 11 11
 							</a>
 						</li>
 					</ul>
 				</address>
 			</div>
-				<div class="footer__socials">
-					<h3 class="footer-socials__heading">Приєднуйтесь</h3>
+				<div class="footer__social">
+					<h3 class="footer-social__heading">Приєднуйтесь</h3>
 					<ul class="socials flex">
 						<li>
-							<a class="social__link social__link--footer flex" href="https://www.instagram.com/" aria-label="Instagram" target="_blank" rel="noreferrer noopener">
+							<a class="socials__link footer-social--link flex" href="https://www.instagram.com/" aria-label="Instagram" target="_blank" rel="noreferrer noopener">
 								<svg width="20" height="20">
 									<use href="./images/icons.svg#icon-instagram"></use>
 								</svg>
 							</a>
 						</li>
 						<li>
-							<a class="social__link social__link--footer flex" href="https://twitter.com" aria-label="Twitter" target="_blank" rel="noreferrer noopener">
+							<a class="socials__link footer-social--link flex" href="https://twitter.com" aria-label="Twitter" target="_blank" rel="noreferrer noopener">
 								<svg width="20" height="20">
 									<use href="./images/icons.svg#icon-twitter"></use>
 								</svg>
 							</a>
 						</li>
 						<li>
-							<a class="social__link social__link--footer flex" href="https://facebook.com" aria-label="Facebookr" target="_blank" rel="noreferrer noopener">
+							<a class="socials__link footer-social--link flex" href="https://facebook.com" aria-label="Facebookr" target="_blank" rel="noreferrer noopener">
 								<svg width="20" height="20">
 									<use href="./images/icons.svg#icon-facebook"></use>
 								</svg>
 							</a>
 						</li>
 						<li>
-							<a class="social__link social__link--footer flex" href="https://linkedin.com" aria-label="Linkedin" target="_blank" rel="noreferrer noopener">
+							<a class="socials__link footer-social--link flex" href="https://linkedin.com" aria-label="Linkedin" target="_blank" rel="noreferrer noopener">
 								<svg width="20" height="20">
 									<use href="./images/icons.svg#icon-linkedin"></use>
 								</svg>
@@ -395,7 +396,7 @@
 				<div class="footer-form__wrap">
 					<p class="footer-form__name">Підпишіться на розсилку</p>
 					<form class="footer-form flex">
-						<label class="footer-form__label">
+						<label>
 							<input class="footer-form__field" type="email" name="email" placeholder="E-mail" />
 						</label>
 						<button class="btn footer-form--btn" type="submit">
@@ -411,60 +412,60 @@
 		<!-- Модальне вікно -->
 		<div data-modal class="backdrop is-hidden">
 			<div class="modal">
-				<button class="modal__close" data-modal-close>
-					<svg class="modal__close-icon" width="11px" height="11px">
+				<button class="modal-close" data-modal-close>
+					<svg class="modal-close__icon" width="11px" height="11px">
 						<use href="./images/icons.svg#icon-modal-close"></use>
 					</svg>
 				</button>
-				<strong class="modal__form-heading">Залиште свої дані, ми вам передзвонимо</strong>
-				<form class="modal__form flex--modal" name="modal_form">
-					<div class="modal__form-group" role="group">
-						<label class="modal__form-label flex-modal">
+				<strong class="modal__heading">Залиште свої дані, ми вам передзвонимо</strong>
+				<form class="modal-form flex--modal" name="modal_form">
+					<div class="modal-form__group" role="group">
+						<label class="modal-form__label flex-modal">
 							Ім'я
-							<div class="modal__form-input-wrap">
-								<input class="modal__form-field" type="name" name="user_name" />
-								<svg class="modal__form-icon" width="18px" height="18px">
+							<div class="modal-form__input">
+								<input class="modal-form__field" type="name" name="user_name" />
+								<svg class="modal-form__icon" width="18px" height="18px">
 									<use href="./images/icons.svg#icon-person-black"></use>
 								</svg>
 							</div>
 						</label>
 					</div>
-					<div class="modal__form-group flex--modal">
-						<label class="modal__form-label flex-modal">
+					<div class="modal-form__group flex--modal">
+						<label class="modal-form__label flex-modal">
 							Телефон
-							<div class="modal__form-input-wrap">
-								<input class="modal__form-field" type="tel" name="user_phone" />
-								<svg class="modal__form-icon" width="18px" height="18px">
+							<div class="modal-form__input">
+								<input class="modal-form__field" type="tel" name="user_phone" />
+								<svg class="modal-form__icon" width="18px" height="18px">
 									<use href="./images/icons.svg#icon-phone-black"></use>
 								</svg>
 							</div>
 						</label>
 					</div>
-					<div class="modal__form-group flex--modal">
-						<label class="modal__form-label flex-modal">
+					<div class="modal-form__group flex--modal">
+						<label class="modal-form__label flex-modal">
 							Пошта
-							<div class="modal__form-input-wrap">
-								<input class="modal__form-field" type="mail" name="user_mail" />
-								<svg class="modal__form-icon" width="18px" height="18px">
+							<div class="modal-form__input">
+								<input class="modal-form__field" type="mail" name="user_mail" />
+								<svg class="modal-form__icon" width="18px" height="18px">
 									<use href="./images/icons.svg#icon-email-black"></use>
 								</svg>
 							</div>
 						</label>
 					</div>
-					<label class="modal__form-label flex--modal" for="user_message">Коментар</label>
-					<textarea class="modal__form-textarea flex-modal" name="user_message" id="user_message" rows="7" placeholder="Введіть текст"></textarea>
-					<div class="modal__form-agreement" role="group">
+					<label class="modal-form-label flex--modal" for="user_message">Коментар</label>
+					<textarea class="modal-form__textarea flex-modal" name="user_message" id="user_message" rows="7" placeholder="Введіть текст"></textarea>
+					<div class="modal__agreement" role="group">
 						<label>
-							<input class="modal__form-checkbox visually-hidden" type="checkbox" name="user_agreement_check" />
-							<svg class="modal__agreement-icon" width="16px" height="15px">
-								<use class="modal__agreement-uncheck" href="./images/icons.svg#icon-uncheck"></use>
-								<use class="modal__agreement-check" href="./images/icons.svg#icon-check"></use>
+							<input class="modal-form__checkbox visually-hidden" type="checkbox" name="user_agreement_check" />
+							<svg class="modal-agreement__icon" width="16px" height="15px">
+								<use class="modal-agreement__uncheck" href="./images/icons.svg#icon-uncheck"></use>
+								<use class="modal-agreement__check" href="./images/icons.svg#icon-check"></use>
 							</svg>
 							Погоджуюся з розсилкою та приймаю
-							<a class="modal__agreement-link" href="">Умови договору</a>
+							<a class="modal-agreement__link" href="">Умови договору</a>
 						</label>
 					</div>
-					<button class="modal__form-btn btn" type="submit">Відправити</button>
+					<button class="modal-form__btn btn" type="submit">Відправити</button>
 				</form>
 			</div>
 		</div>
